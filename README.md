@@ -1,6 +1,4 @@
-Here’s a **professional README.md** for your **Vehicle Rental System** project, covering all queries, explanations, and outputs:
 
-````markdown
 # Vehicle Rental System
 
 ## Project Overview
@@ -166,14 +164,3 @@ HAVING COUNT(b.booking_id) > 2;
 ## Author
 
 Md. Mahabubul Alam
-
-**Project Date:** 2025-12-22
-
-```
-
----
-
-If you want, I can also **create a `queries.sql` file** with **all queries and dummy data included**, ready to run in PostgreSQL so you don’t have to manually copy anything.  
-
-Do you want me to do that?
-```
