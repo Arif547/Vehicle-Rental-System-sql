@@ -57,8 +57,8 @@ INSERT INTO vehicles (
 
 CREATE TABLE bookings (
     booking_id SERIAL PRIMARY KEY,
-    user_id INT NOT NULL,
-    vehicle_id INT NOT NULL,
+    user_id INT NOT NULL references users(id),
+    vehicle_id INT NOT NULL references vehicles(id),
     start_date DATE NOT NULL,
     end_date DATE NOT NULL,
     status VARCHAR(20) NOT NULL 
